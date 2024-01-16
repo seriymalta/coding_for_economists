@@ -1,0 +1,35 @@
+    1  git push -u origin main
+    2  git remote add origin https://github.com/seriymalta/coding_for_economists.git
+    3  git branch -M main
+    4  git push -u origin main
+    5  git config --global user.email
+    6  git config -- global user.email "milto_sr@mail.ru"
+    7  git push -u origin main
+    8  ~/.gitconfig
+    9  ~/.ssh/id_rsa.pub
+   10  C:\Users\milto\.ssh\id_rsa.pub
+   11  C:/Users/milto/.ssh/id_rsa.pub
+   12  C://Users/milto/.ssh/id_rsa.pub
+   13     ~/.ssh/id_rsa.pub
+   14     
+   15  ls -a ~/.ssh
+   16     pbcopy < ~/.ssh/id_rsa.pub
+   17     
+   18  ssh-keygen -t rsa -b 4096 -C "milto_sr@mail.ru"
+   19  ssh-keygen -t rsa -b 4096 -C "milto_sr@mail.ru"
+   20  ls -a ~/.ssh
+   21  ~/.ssh/id_rsa.pub
+   22     cat ~/.ssh/id_rsa.pub
+   23     
+   24  git status
+   25  url
+   26  python
+   27  git add main.py
+   28  git commit -m
+   29  git commit -m "Coded solution to string slicing exercise"
+   30  git config --global user.email "milto_sr@mail.ru"
+   31  git config --global user.name "seriymalta"
+   32  git commit -m "Coded solution to string slicing exercise"
+   33  git push -u origin main
+   34  history
+   35  history > history_intro_python.txt

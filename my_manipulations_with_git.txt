@@ -1,0 +1,53 @@
+    1  git status
+    2  git status
+    3  git add main.py
+    4  git commit -m "just a check"
+    5  git config --global user.email "milto_sr@mail.ru"
+    6  git config --global user.name "seriymalta"
+    7  git commit -m "Just a check"
+    8  git push
+    9  git init
+   10  git push -u origin main
+   11  git status
+   12  git push -u origin main
+   13  mv main.py 01_intro_to_python
+   14  git status
+   15  git git config -- user.email "foo@bar.com"
+   16  git config --user.email "milto_sr@mail.ru"
+   17  git config --global user.email "milto_sr@mail.ru"
+   18  git config --global user.name "seriymalta"
+   19  git push -u origin main
+   20  touch main.py
+   21  git remote -v
+   22  ssh-add -l
+   23  git push -u origin main
+   24  mv 01_intro_to_python 01_intro_to_python.py
+   25  ssh-agent bash
+   26  cat ~/.ssh/id_rsa.pub
+   27  ~/.ssh/id_rsa.pub
+   28  git commit -m
+   29  git push -u origin main
+   30  git remote -v
+   31  eval "$(ssh-agent -s)"
+   32  git remote -v
+   33  git status
+   34  git push -u origin main
+   35  git push
+   36  git remote add origin https://github.com/seriymalta/coding_for_economists.git
+   37  git branch -M main
+   38  git push -u origin main
+   39  cat ~/.ssh/id_rsa.pub
+   40  git status
+   41  git branch -M master
+   42  git status
+   43  git push -u origin master
+   44  git remote set-url origin https://github.com/seriymalta/coding_for_economists.git
+   45  git status
+   46  git push
+   47  git push oritin HEAD:main
+   48  git status
+   49  git branch -M main
+   50  git status
+   51  git push -u origin main
+   52  history
+   53  history > my_manipulations_with_git.txt

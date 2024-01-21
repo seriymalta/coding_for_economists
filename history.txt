@@ -1,0 +1,63 @@
+    1  touch main.py
+    2  pwd
+    3  ls
+    4  ls -a
+    5  ls --help
+    6  ls -l
+    7  ls -h -l
+    8  ls -hl
+    9  mkdir
+   10  mk dir data
+   11  mkdir data
+   12  mkdir data/raw
+   13  ls data/
+   14  cd data/
+   15  ls
+   16  ls -a
+   17  cd ..
+   18  cd ..
+   19  cd /
+   20  ls -lh
+   21  cd ~
+   22  cd ~ Codingforeconomists2024/
+   23  cd ~/Codingforeconomists2024/
+   24  cd data/
+   25  cd raw/
+   26  mkdir european_commission
+   27  cd ~
+   28  cd ~/Codingforeconomists2024/
+   29  cd ~/data
+   30  cd ~
+   31  cd Codingforeconomists2024/
+   32  cd data/
+   33  cd raw/
+   34  pwd
+   35  curl --help
+   36  ls
+   37  cd european_commission/
+   38  curl https://github.com/codedthinking/tender-home-bias/releases/download/v1.0/ted-sample.csv
+   39  ls
+   40  curl -L https://github.com/codedthinking/tender-home-bias/releases/download/v1.0/ted-sample.csv
+   41  curl --help all
+   42  curl -oL ted-sample.csv https://github.com/codedthinking/tender-home-bias/releases/download/v1.0/ted-sample.csv
+   43  ls
+   44  curl -L -o ted-sample.csv https://github.com/codedthinking/tender-home-bias/releases/download/v1.0/ted-sample.csv
+   45  ls
+   46  head --help
+   47  head ted-sample.csv 
+   48  head -n 2 ted-sample.csv 
+   49  cd ..
+   50  mkdir country-codes
+   51  ls
+   52  cd country-codes/
+   53  curl -L -o country-codes.csv https://github.com/codedthinking/tender-home-bias/releases/download/v1.0/country-codes.csv
+   54  ls
+   55  pwd
+   56  head -n country-codes.csv 
+   57  head -n country-codes.csv 
+   58  head -n 2 country-codes.csv 
+   59  wc country-codes.csv 
+   60  wc --help
+   61  wc -l country-codes.csv 
+   62  history
+   63  history >../../../history.txt

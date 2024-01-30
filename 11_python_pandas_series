@@ -1,0 +1,42 @@
+import pandas as pd
+import numpy as np
+
+#Let's look at pd.Series
+#A series is a one-dimensional array-like object
+
+#Let's define our first pd.Series
+
+ps = pd.Series(['a',1,2,np.pi])
+print(ps)
+
+#Checking the datatype
+print(type(ps))
+
+#Accessing the values
+print(ps.values)
+
+#Access elements of pd.Series by indexing
+print(ps[0:2])
+
+#Define a custom index
+series_1 = pd.Series(
+  data = ["Schnitzel",
+         "Lemonade",
+         "Whiskey"],
+  index = ["Food", 
+           "Soda", 
+           "Alcohol"]
+)
+
+#Advanced indexing of pd.Series using .loc[]
+print (series_1.loc["Food"])
+
+print (series_1.loc[["Food", "Alcohol"]]
+
+# Using .iloc[]
+
+print(series_1.iloc[0])
+
+#Access elements from a range of indexes
+
+print(series_1.iloc[0:2])
